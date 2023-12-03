@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Cabinet-Grotesk', sans-serif;
+}
+
+body, html {
+  overflow-x: hidden;
+}
+
+.webgl {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.title {
+  position: absolute;
+  z-index: 5;
+  font-family: 'Space Mono', monospace;
+  color: #cdcdcd;
+  font-size: 20vw;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  line-height: 100%;
+}
